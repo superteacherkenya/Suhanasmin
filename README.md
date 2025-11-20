@@ -1,2 +1,2 @@
 # Super Teacher Suha
-online tutoring profile and services
+online tutoring and Education services
