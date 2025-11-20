@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>[Your Name] — Online Tutor</title>
+<meta name="description" content="Experienced teacher offering online tutoring for primary & middle school. Personalized lessons, homework support, exam prep." />
+<style>
+  :root{--accent:#0d6efd;--bg:#f7f9fc;--card:#ffffff;--muted:#6b7280}
+  *{box-sizing:border-box}body{margin:0;font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial; background:var(--bg); color:#111;}
+  .container{max-width:980px;margin:30px auto;padding:20px}
+  header{display:flex;gap:20px;align-items:center}
+  .avatar{width:110px;height:110px;border-radius:12px;background:linear-gradient(135deg,#e9f0ff,#fff);display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--accent);font-size:20px}
+  h1{margin:0;font-size:26px}
+  p.lead{margin:6px 0 12px;color:var(--muted)}
+  .buttons{display:flex;gap:10px;flex-wrap:wrap}
+  .btn{padding:10px 14px;border-radius:8px;text-decoration:none;border:1px solid transparent;background:var(--accent);color:#fff;display:inline-block}
+  .btn.ghost{background:transparent;border-color:#ddd;color:#111}
+  main{display:grid;grid-template-columns:1fr;gap:18px;margin-top:18px}
+  .card{background:var(--card);padding:16px;border-radius:12px;box-shadow:0 6px 18px rgba(12,18,39,0.06)}
+  .services{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+  .service{padding:12px;border-radius:10px;border:1px dashed #eee}
+  .price{font-weight:700;color:var(--accent)}
+  .columns{display:grid;grid-template-columns:1fr 320px;gap:18px}
+  @media(max-width:900px){.columns{grid-template-columns:1fr} .avatar{width:90px;height:90px}}
+  footer{text-align:center;color:var(--muted);font-size:13px;padding:16px}
+  .testimonials{display:flex;flex-direction:column;gap:8px}
+  .t{padding:8px;border-radius:8px;background:#fbfdff;border:1px solid #eef6ff}
+  form label{display:block;font-size:13px;color:var(--muted);margin-top:8px}
+  input,textarea,select{width:100%;padding:10px;border-radius:8px;border:1px solid #e6e9ee;margin-top:6px}
+  .small{font-size:13px;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="avatar">SN</div>
+    <div>
+      <h1>Suhanasmin — Experienced Online Tutor</h1>
+      <p class="lead">Qualified teacher with years of classroom & home teaching experience. I teach Primary & Early Secondary students: English, Math, Science, Islamic studies. Personalized lessons, exam prep and homework support.</p>
+      <div class="buttons">
+        <a class="btn" href="#book">Book a FREE trial</a>
+        <a class="btn ghost" href="#services">See Services</a>
+      </div>
+      <div class="small" style="margin-top:8px">Location: Kenya • Online via Zoom/Google Meet • Languages: English, Kiswahili</div>
+    </div>
+  </header>
+
+  <main>
+    <div class="columns">
+      <section>
+        <div class="card" id="services">
+          <h2>Services I offer</h2>
+          <div class="services" style="margin-top:12px">
+            <div class="service">
+              <strong>Primary (Grade 1–6)</strong>
+              <div class="small">Reading, writing, arithmetic, Islamic values & Quran basics.</div>
+            </div>
+            <div class="service">
+              <strong>Lower Secondary (Grade 7–9)</strong>
+              <div class="small">Math, English, Science, study skills & exam prep.</div>
+            </div>
+            <div class="service">
+              <strong>Homework help & weekly plans</strong>
+              <div class="small">Structured weekly lessons & worksheets to follow at home.</div>
+            </div>
+            <div class="service">
+              <strong>Parent consultations</strong>
+              <div class="small">Progress reports, recommendations, routines for learning at home.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h2>Why choose me</h2>
+          <ul class="small">
+            <li>Classroom experience + homeschooling background — flexible & patient.</li>
+            <li>Tailored lessons: I adapt to your child's pace & learning style.</li>
+            <li>Clear weekly plans, progress tracking and friendly communication with parents.</li>
+          </ul>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h2>Sample lesson (30–45 min)</h2>
+          <ol class="small">
+            <li>Warm-up (5 min): quick questions & revision.</li>
+            <li>Teach new concept (15–20 min): step-by-step, with real examples.</li>
+            <li>Practice (10–15 min): exercises + feedback.</li>
+            <li>Wrap-up (5 min): homework & what to practice.</li>
+          </ol>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h2>What parents say</h2>
+          <div class="testimonials">
+            <div class="t"><strong>Fatima, parent:</strong> "My son improved his reading in 6 weeks."</div>
+            <div class="t"><strong>Ali, parent:</strong> "Lessons are structured and my daughter enjoys them."</div>
+          </div>
+        </div>
+
+      </section>
+
+      <aside>
+        <div class="card" id="book">
+          <h2>Pricing & Booking</h2>
+          <p class="small">I offer a FREE 30-minute trial so we can meet and I can assess your child's needs.</p>
+          <div style="margin-top:8px">
+            <div><strong>Single lesson</strong> — <span class="price">KES 1,200</span> (30–45 min)</div>
+            <div style="margin-top:6px"><strong>Weekly plan (4 lessons)</strong> — <span class="price">KES 4,200</span></div>
+            <div style="margin-top:6px"><strong>Monthly (16 lessons)</strong> — <span class="price">KES 15,000</span></div>
+          </div>
+          <p class="small" style="margin-top:10px">Flexible hours. Discounts for siblings & longer packages.</p>
+          <a class="btn" href="mailto:your-email@example.com?subject=Book%20Free%20Trial%20with%20Suhanasmin">Email to Book</a>
+          <a class="btn ghost" href="https://calendly.com" target="_blank" style="display:inline-block;margin-top:8px">Reserve on Calendly</a>
+
+          <hr style="margin:12px 0">
+          <div>
+            <strong>Payment options</strong>
+            <ul class="small">
+              <li>M-Pesa (Kenya)</li>
+              <li>PayPal / Bank transfer (for international)</li>
+            </ul>
+            <div class="small" style="margin-top:6px">I will confirm schedule once payment or free trial request is received.</div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h3>Contact</h3>
+          <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <label>Your name<input name="name" required></label>
+            <label>Child's age / Grade<input name="grade"></label>
+            <label>Preferred time<select name="time">
+              <option>Weekdays after 4pm</option>
+              <option>Weekends morning</option>
+              <option>Flexible</option>
+            </select></label>
+            <label>Message<textarea name="message" rows="4"></textarea></label>
+            <div style="margin-top:10px"><button class="btn" type="submit">Send request</button></div>
+          </form>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h4>Social</h4>
+          <div class="small">WhatsApp • Instagram • Facebook — connect for updates & short tips for parents.</div>
+        </div>
+      </aside>
+    </div>
+
+    <div class="card" style="margin-top:12px">
+      <h2>Free resources (for students)</h2>
+      <ul class="small">
+        <li>Weekly worksheet PDF (I provide to booked students).</li>
+        <li>Reading list & progress tracker.</li>
+      </ul>
+    </div>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Suhanasmin — Online Tutoring. <span class="small">If you want me to customize this website (photos, colors, booking links), tell me what to change and I’ll update the code.</span>
+  </footer>
+</div>
+
+<script>
+document.getElementById('year').innerText = new Date().getFullYear();
+</script>
+</body>
+</html>
